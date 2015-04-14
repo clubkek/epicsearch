@@ -1,0 +1,20 @@
+{
+  "name": "EpicSearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ../EpicSearch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "js-beautify": "^1.5.5",
+    "js-cache": "^1.0.2",
+    "superagent": "^1.1.0",
+    "xml2js": "^0.4.6"
+  },
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}

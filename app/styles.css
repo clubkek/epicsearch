@@ -1,0 +1,67 @@
+body { background-color: #efefef }
+
+.tfclear {
+  clear: both;
+}
+
+#tffooter {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 4px;
+  background-color: #444;
+}
+
+#tffooter span {
+  font-family: verdana;
+  font-size: 12px;
+  color: #fff;
+}
+
+#tfheader {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 80px;
+  left: 0px;
+  background-color: #101010;
+  
+}
+
+.tftextinput {
+  margin: 0;
+  padding: 9px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: 1px solid #0076a3;
+  border-right: 0px;
+  border-top-left-radius: 5px 5px;
+  border-bottom-left-radius: 5px 5px;
+  min-width: 600px;
+  float: left;
+}
+
+.tfbutton {
+  margin: 0;
+  padding: 10px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  color: #F0EE4A;
+  border: 0px;
+  border-left: 1px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#EEA300), to(#A56B00));
+  background: -moz-linear-gradient(top, #00adee, #0078a5);
+  border-top-right-radius: 5px 5px;
+  border-bottom-right-radius: 5px 5px;
+}
+
+#tfnewsearch {
+  padding: 20px;
+  padding-left: 200px;
+}
